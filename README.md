@@ -1,8 +1,10 @@
-🍔 Food Delivery Performance – Zomato (Case Study)
+# 🍔 Food Delivery Performance – Zomato (Case Study)
 
 This project analyzes Zomato Delivery Operations data to understand the factors that affect delivery time in metropolitan areas. It includes data preprocessing, exploratory analysis, and interactive visualizations via Streamlit.
 
-📌 Project Overview
+---
+
+## 📌 Project Overview
 
 Goal: Improve customer satisfaction by reducing delivery times.
 
@@ -14,7 +16,9 @@ Dataset Size: 45,584 rows × 20 columns (reduced to 35,287 × 22 after cleaning)
 
 Source: Kaggle – Zomato Delivery Operations Analytics
 
-❓ Business Questions
+---
+
+## ❓ Business Questions
 
 % of completed orders by vehicle?
 
@@ -24,18 +28,24 @@ Which vehicle most often handles multiple orders?
 
 Do traffic, weather, and vehicle condition affect delivery time?
 
-⚙️ Tech Stack
+---
+
+##⚙️ Tech Stack
 
 Python: pandas, matplotlib, seaborn
 
 Jupyter Notebook: preprocessing & exploration
 
-📂 Repository Structure
+---
+
+## 📂 Repository Structure
 ├── Data Exploration.ipynb       # Notebook for cleaning & EDA
 ├── Dashboard.pbix               # Dashboard PowerBI
 ├── README.md                    # Project documentation
 
-📊 Key Insights
+---
+
+## 📊 Key Insights
 
 Motorcycles dominate deliveries (60%).
 
@@ -49,7 +59,9 @@ Traffic jams impact motorcycles the most (33.4 min avg).
 
 Vehicle condition matters: good/normal saves 4–5 min vs bad.
 
-✅ Recommendations
+---
+
+##✅ Recommendations
 
 Assign motorcycles to long-distance multi-order routes.
 
@@ -61,7 +73,9 @@ In high traffic, allocate more scooters/e-scooters.
 
 Maintain fleet in good condition to improve efficiency.
 
-👤 Author
+---
+
+# 👤 Author
 **Antonius Wisnumurti Sulistyanto**  
 [LinkedIn](https://www.linkedin.com/in/antonius-wisnumurti-sulistyanto/)  
 [Email](mailto:antoniuswisnumurti@gmail.com)
